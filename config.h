@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Liberation Mono:pixelsize=20:antialias=true:autohint=true, Noto Color Emoji:size=10";
 static int borderpx = 2;
 
 /*
@@ -99,24 +99,25 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+
+	"#060613", //black
+	"#0bffe9",
+	"#d10060",
+	"#373b6b",
+	"#545899",
+	"#757ab6",
+	"#8f91d1",
+	"#d2d2ee",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#57bfcb",
+	"#4ca5af",
+	"#b3b6e4",
+	"#f463d0",
+	"#4dcc8b",
+	"#68b1ba",
+	"#3a959f",
+	"#f364d0",
 
 	[255] = 0,
 
